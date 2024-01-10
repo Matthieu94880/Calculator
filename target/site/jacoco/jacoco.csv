@@ -1,0 +1,4 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+calculator,com.openclassrooms.testing,Calculator,3,48,0,4,2,12,0,7,0,5
+calculator,com.openclassrooms.testing,Main,7,0,0,0,3,0,2,0,2,0
+calculator,com.openclassrooms.testing,ConversionCalculator,0,34,0,0,0,5,0,5,0,5

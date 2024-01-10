@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.openclassrooms.testing.CalculatorTest" time="1.067" tests="15" errors="0" skipped="1" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\dev\Calculator\target\test-classes;C:\dev\Calculator\target\classes;C:\Users\Matthieu\.m2\repository\org\junit\jupiter\junit-jupiter\5.5.1\junit-jupiter-5.5.1.jar;C:\Users\Matthieu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.1\junit-jupiter-api-5.5.1.jar;C:\Users\Matthieu\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Matthieu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Matthieu\.m2\repository\org\junit\platform\junit-platform-commons\1.5.1\junit-platform-commons-1.5.1.jar;C:\Users\Matthieu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.5.1\junit-jupiter-params-5.5.1.jar;C:\Users\Matthieu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.1\junit-jupiter-engine-5.5.1.jar;C:\Users\Matthieu\.m2\repository\org\junit\platform\junit-platform-engine\1.5.1\junit-platform-engine-1.5.1.jar;C:\Users\Matthieu\.m2\repository\org\assertj\assertj-core\3.13.2\assertj-core-3.13.2.jar;C:\Users\Matthieu\.m2\repository\org\apache\logging\log4j\log4j-core\2.12.1\log4j-core-2.12.1.jar;C:\Users\Matthieu\.m2\repository\org\apache\logging\log4j\log4j-api\2.12.1\log4j-api-2.12.1.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk17.0.9_8\bin"/>
+    <property name="sun.java.command" value="C:\Users\Matthieu\AppData\Local\Temp\surefire6959113832695712219\surefirebooter6209395424387517363.jar C:\Users\Matthieu\AppData\Local\Temp\surefire6959113832695712219 2024-01-10T11-42-44_258-jvmRun1 surefire16205214660755575177tmp surefire_02057213420413683388tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\dev\Calculator\target\test-classes;C:\dev\Calculator\target\classes;C:\Users\Matthieu\.m2\repository\org\junit\jupiter\junit-jupiter\5.5.1\junit-jupiter-5.5.1.jar;C:\Users\Matthieu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.1\junit-jupiter-api-5.5.1.jar;C:\Users\Matthieu\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Matthieu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Matthieu\.m2\repository\org\junit\platform\junit-platform-commons\1.5.1\junit-platform-commons-1.5.1.jar;C:\Users\Matthieu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.5.1\junit-jupiter-params-5.5.1.jar;C:\Users\Matthieu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.1\junit-jupiter-engine-5.5.1.jar;C:\Users\Matthieu\.m2\repository\org\junit\platform\junit-platform-engine\1.5.1\junit-platform-engine-1.5.1.jar;C:\Users\Matthieu\.m2\repository\org\assertj\assertj-core\3.13.2\assertj-core-3.13.2.jar;C:\Users\Matthieu\.m2\repository\org\apache\logging\log4j\log4j-core\2.12.1\log4j-core-2.12.1.jar;C:\Users\Matthieu\.m2\repository\org\apache\logging\log4j\log4j-api\2.12.1\log4j-api-2.12.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Matthieu"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk17.0.9_8"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\dev\Calculator"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Matthieu\AppData\Local\Temp\surefire6959113832695712219\surefirebooter6209395424387517363.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.9+8-LTS"/>
+    <property name="user.name" value="Matthieu"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-17.0.9.8.1"/>
+    <property name="localRepository" value="C:\Users\Matthieu\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-17/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Matthieu\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="user.dir" value="C:\dev\Calculator"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk17.0.9_8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Amazon Corretto\jdk17.0.9_8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\dev\apache-maven-3.9.6\bin;C:\Users\Matthieu\AppData\Local\Microsoft\WindowsApps;;C:\Users\Matthieu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Matthieu\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="17.0.9+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testAddTwoPositiveNumbers" classname="com.openclassrooms.testing.CalculatorTest" time="0.078"/>
+  <testcase name="testDate" classname="com.openclassrooms.testing.CalculatorTest" time="0">
+    <skipped message="Stoppé car cela échoue tous les mardis"/>
+  </testcase>
+  <testcase name="add_shouldReturnTheSum_ofMultipleIntegers{int, int, int}[1]" classname="com.openclassrooms.testing.CalculatorTest" time="0.014"/>
+  <testcase name="add_shouldReturnTheSum_ofMultipleIntegers{int, int, int}[2]" classname="com.openclassrooms.testing.CalculatorTest" time="0.001"/>
+  <testcase name="add_shouldReturnTheSum_ofMultipleIntegers{int, int, int}[3]" classname="com.openclassrooms.testing.CalculatorTest" time="0"/>
+  <testcase name="listDigits_shouldReturnsTheListOfDigits_ofZero" classname="com.openclassrooms.testing.CalculatorTest" time="0.01"/>
+  <testcase name="longCalcul_shouldComputeInLessThan1Second" classname="com.openclassrooms.testing.CalculatorTest" time="0.51"/>
+  <testcase name="listDigits_shouldReturnsTheListOfDigits_ofPositiveInteger" classname="com.openclassrooms.testing.CalculatorTest" time="0"/>
+  <testcase name="listDigits_shouldReturnsTheListOfDigits_ofNegativeInteger" classname="com.openclassrooms.testing.CalculatorTest" time="0"/>
+  <testcase name="testMultiplyTwoPositiveNumbers" classname="com.openclassrooms.testing.CalculatorTest" time="0"/>
+  <testcase name="multiply_shouldReturnZero_ofZeroWithMultipleIntegers{int}[1]" classname="com.openclassrooms.testing.CalculatorTest" time="0.006"/>
+  <testcase name="multiply_shouldReturnZero_ofZeroWithMultipleIntegers{int}[2]" classname="com.openclassrooms.testing.CalculatorTest" time="0"/>
+  <testcase name="multiply_shouldReturnZero_ofZeroWithMultipleIntegers{int}[3]" classname="com.openclassrooms.testing.CalculatorTest" time="0"/>
+  <testcase name="multiply_shouldReturnZero_ofZeroWithMultipleIntegers{int}[4]" classname="com.openclassrooms.testing.CalculatorTest" time="0"/>
+  <testcase name="multiply_shouldReturnZero_ofZeroWithMultipleIntegers{int}[5]" classname="com.openclassrooms.testing.CalculatorTest" time="0"/>
+</testsuite>
